@@ -4,7 +4,7 @@
   "description": "GitHub Action to run codex exec via the Codex CLI with accompanying helper steps",
   "private": true,
   "scripts": {
-    "build": "esbuild src/main.ts --sourcemap=inline --format=cjs --bundle --platform=node --target=node20 --outdir=dist",
+    "build": "esbuild src/main.ts --sourcemap=inline --format=cjs --bundle --platform=node --target=node8 --outdir=dist",
     "check": "tsc --noEmit"
   },
   "dependencies": {
